@@ -122,7 +122,7 @@ public class Q1 {
             }
 
             // Employees.sort(Employee::compareTo);
-            Employees.sort((e1, e2) -> Double.compare(e1.getnetSalary(), e2.getnetSalary()));
+            Employees.sort(Employee :: compareTo);
             System.out.println("Employee Details");
             System.out.println("\nSorted Employee (by net Salary):");
             for (Employee e1 : Employees) {

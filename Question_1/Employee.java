@@ -59,4 +59,8 @@ public class Employee extends Person{
             + "Net salary of Employee in " + getnetSalary();
 
     }
+    public int compareTo(Employee other)
+    {
+        return Double.compare(this.netSalary, other.netSalary);
+    }
 }
