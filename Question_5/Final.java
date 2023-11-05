@@ -1,5 +1,4 @@
 
-package MyPackage2;
 
 // Interface Exam
 interface Exam {

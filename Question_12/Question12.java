@@ -33,7 +33,7 @@ class Bill{
 
 }
 
-public class Question11{
+public class Question12{
     public static void main(String[] args) {
         Scanner sc=  new Scanner(System.in);
         try{

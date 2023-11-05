@@ -20,7 +20,7 @@ public class Question9 extends Supplier{
             String addrss = sc.next();
             String[] productname = new String[3];
            int[] priceofproduct = new int[3];
-           
+    
             System.out.println("Enter the product name");
             for(int  i = 0;i<3;i++)
             {
